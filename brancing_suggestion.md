@@ -56,6 +56,10 @@ Det resulterer i:
     - En enkelt parent på et feature commit
     - Et enkelt commit på develop, som er nemt at reverte
     - Ingen branch-spaghetti
+    
+<p align="center">
+    <img src="./spaghet.png" width="200px">
+</p>
 
 
 ## Release flow
