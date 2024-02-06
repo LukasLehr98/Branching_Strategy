@@ -32,7 +32,7 @@
 
 <img src="./Branhces.png" width="600px">
 
-## Generelt feature flow
+## Feature flow
 
 Feature branch flow: 
     git flow feature start BRANCHNAME
@@ -56,3 +56,18 @@ Det resulterer i:
     - En enkelt parent på et feature commit
     - Et enkelt commit på develop, som er nemt at reverte
     - Ingen branch-spaghetti
+
+
+## Release flow
+
+    git flow release start 1.0
+    
+Deploy til test
+
+Når alle features er testet og approved
+
+    git flow release finish
+
+Dette merger release til develop og til main.
+
+Deploy main til test + preprod, afvent release.
